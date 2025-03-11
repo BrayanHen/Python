@@ -1,5 +1,4 @@
-numero1=input('Primeiro Numero')
-numero2=input('Segundo Numero')
+n1=int(input('Digite um Numero:'))
+n2=int(input('Digite outro Numero:'))
 
-print(numero1 + numero2)
-
+print('A soma de {} e {} vale:{}'.format(n1,n2,n1+n2))

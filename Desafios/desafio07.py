@@ -1,0 +1,9 @@
+m=float(input('Metros:'))
+cm=m*100
+mm=m*1000
+km=m*0.001
+dc=m*0.1
+hc=m*0.01
+dci=m*10
+print('Centimetros:{:.0f}cm\nMilimetros:{:.0f}mm\nQuilometro:{}'.format(cm,mm,km))
+print('Decametros:{:.1f}\nHectometros:{}\nDecimetros:{:.0f}'.format(dc,hc,dci))
