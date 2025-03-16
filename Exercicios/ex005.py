@@ -1,5 +1,7 @@
-p=float(input('Quanto custa o produto R$:'))
-av=p-(p*15/100)
-par=p+(p*8/100)
+from num2words import num2words
 
-print('Valor do produto á vista R$:{}\nValor do produto parcelado R${}'.format(av,par))
+n=int(input('Digite um numero entre 0 e 20:'))
+
+r=num2words(n, lang='pt').capitalize()
+
+print('Voce digitou o número:{}'.format(r))
