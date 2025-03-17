@@ -1,4 +1,6 @@
-dias=int(input('Dias:'))
-horas=dias*24
+import math
+dias=float(input('Horas:'))
+hrs=dias/24
+horas=math.ceil(hrs)
 
-print('Horas:{}'.format(horas))
+print('Dias:{:.0f}'.format(horas))
