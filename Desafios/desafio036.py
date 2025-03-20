@@ -1,12 +1,16 @@
 vc=float(input('Qual o valor da casa?:'))
 sal=float(input('Qual o salario do comprador?:'))
-anos=float(input('Em quantos anos a casa vai ser paga?:'))
+anos=int(input('Em quantos anos a casa vai ser paga?:'))
 
-prestacao= vc /12
-valor=prestacao*30/100
+prestaçao= vc/(anos*12)
 
-if prestacao > valor:
-    print('Seu emprestimo foi negado.')
+#valor da casa dividido pelos meses que a casa sera paga = prestaçao por mes da casa
+
+print('Para financiar a casa em {} anos a prestação sera de R${:.2f}'.format(anos,prestaçao))
+
+if prestaçao > sal*30/100:
+    print('Seu emprestimo foi NEGADO.')
 else:
-    print('Seu emprestimo foi aprovado!')
+    print('Seu emprestimo foi APROVADO!')
+
 print('Tenha um bom dia!')

@@ -1,16 +1,17 @@
 num=int(input('Digite um numero que voce queira converter:'))
 print('1 - Converter para BINARIO')
 print('2 - Converter para OCTAL')
-print(str('3 - Converter para HEXADECIMAL'))
+print('3 - Converter para HEXADECIMAL')
 num2=int(input('Escolha qual das opções a cima voce deseja converter:'))
 
-bin=bin(num)
-octal=oct(num)
-hexadecimal=hex(num)
+bin=bin(num)[2:]
+octal=oct(num)[2:]
+hexadecimal=hex(num)[2:]
+
 if num2==1:
     print('O numero {} convertido para binario é:{}'.format(num,bin))
 elif num2==2:
-    print('O numero {} convertido para octal é:{}).'.format(num,octal))
+    print('O numero {} convertido para octal é:{}.'.format(num,octal))
 else:
     print('O numero {} convertido para hexadecimal é:{}'.format(num,hexadecimal))
 

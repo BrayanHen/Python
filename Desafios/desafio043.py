@@ -1,8 +1,8 @@
-peso=float(input('Digite o peso para calculo de IMC:'))
+peso=float(input('Digite o peso em KG para calculo de IMC:'))
 altura=float(input('Digite a altura para calculo de IMC:'))
 
 imc=peso/(altura*altura)
-print('Seu IMC é:{:.2f}'.format(imc))
+print('Seu IMC é:{:.1f}'.format(imc))
 
 if imc<18.5:
     print('Abaixo do peso')
@@ -16,4 +16,5 @@ elif imc>40:
     print('Obesidade Morbida')
 
 
-#imc == (peso / altura * altura)
+#imc == peso /(altura*altura)
+#imc == indice de massa corporea
