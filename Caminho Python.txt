@@ -1,0 +1,24 @@
+#Objetivo
+O que estudar para trabalhar com Python
+
+#Obrigatorios
+-Logica de programação
+-Fundamentos da Linguagem(5 pilares da programação)
+    *Variaveis
+    *Controle de Fluxo(condicionais)
+    *Funções
+    *Coleções
+    *Classes(oop)-Object Oriented Programing
+
+#+Rentaveis($$$)
+    -API's
+       -Flask(web Framework)
+       -Django(web Framework)
+    -Desenvolvimento Web(sistemas web/sites)
+       -Flask(web Framework)
+       -Django(web Framework)
+
+#Aceleradores
+   -Crie projetos e demonstre isso em um portfólio
+   -Busque acompanhamento de pessoas mais experientes e pessoas que estão estudando agora também
+   -Documente o que está fazendo de alguma forma
