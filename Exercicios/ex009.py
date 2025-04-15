@@ -1,18 +1,8 @@
-for c in range(1,4):
-    print('=========={}° Aluno==========='.format(c))
-    nome=input('Nome:')
+def somar(a=0,b=0,c=0):
+    soma = a + b + c
+    return soma
 
-    nota=int(input('Nota do aluno em portugues:'))
-    med+=nota
-
-    nota1=int(input('Nota do aluno em matematica:'))
-    med+=nota1
-
-    nota2=int(input('Nota do aluno em ciencias:'))
-    med += nota2
-
-    med = 0
-    media = med / 3
-    print('A media do aluno é:{:1.2f}'.format(media))
-
-
+r1=somar(1,2,3)
+r2=somar(1,7)
+r3=somar(4)
+print(f'Meus calculos deram {r1}, {r2} e {r3}')

@@ -1,21 +1,11 @@
 import os
-import shutil
 
-# Define o intervalo de números para as pastas
-inicio = 66
-fim = 90
+desafios = {
+    'desafio101.py','desafio102.py','desafio103.py','desafio104.py','desafio105.py','desafio106.py','desafio107.py','desafio108.py','desafio109.py','desafio110.py','desafio111.py','desafio111.py''desafio112.py','desafio113.py','desafio114.py'
+}
 
-# Loop para excluir as pastas
-target_directory = os.getcwd()  # Diretório atual, pode ser alterado
-for i in range(inicio, fim + 1):
-    pasta_nome = f"desafio{i:03d}"  # Formato desafio066, desafio067, ...
-    caminho_completo = os.path.join(target_directory, pasta_nome)
+for arquivo in desafios:
+    with open(arquivo, "w", encoding="utf-8") as f:
+        print(f"Arquivo {arquivo} criado com sucesso!")
 
-    try:
-        if os.path.exists(caminho_completo) and os.path.isdir(caminho_completo):
-            shutil.rmtree(caminho_completo)
-            print(f"Pasta removida: {caminho_completo}")
-        else:
-            print(f"Pasta não encontrada: {caminho_completo}")
-    except Exception as e:
-        print(f"Erro ao remover a pasta {pasta_nome}: {e}")
+
