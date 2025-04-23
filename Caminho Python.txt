@@ -2,13 +2,18 @@
 O que estudar para trabalhar com Python
 
 #Obrigatorios
+-Programção Orientada a Objetos(POO)
 -Logica de programação
 -Fundamentos da Linguagem(5 pilares da programação)
-    *Variaveis
+    *Variaveis(variaveis simples,compostas e acumuladoras)
     *Controle de Fluxo(condicionais)
     *Funções
     *Coleções
     *Classes(oop)-Object Oriented Programing
+    *Bases Numericas
+    *API's
+-Aprender do Basico ao Avançado dos topicos acima
+-Anotar em um caderno(importante)
 
 #+Rentaveis($$$)
     -API's
