@@ -12,6 +12,7 @@ O que estudar para trabalhar com Python
     *Classes(oop)-Object Oriented Programing
     *Bases Numericas
     *API's
+    *Banco de Dados
 -Aprender do Basico ao Avançado dos topicos acima
 -Anotar em um caderno(importante)
 
